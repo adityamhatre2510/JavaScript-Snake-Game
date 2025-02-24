@@ -186,7 +186,7 @@ function gameCycle() {
         checkCollision();
         move();
         doDrawing();
-        setTimeout("gameCycle()", DELAY);
+        setTimeout(gameCycle, DELAY);
     }
 }
 
