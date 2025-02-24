@@ -44,7 +44,8 @@ function init() {
     loadImages();
     createSnake();
     locateApple();
-    setTimeout("gameCycle()", DELAY);
+    setTimeout(gameCycle, DELAY); 
+
 }    
 
 function loadImages() {
